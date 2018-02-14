@@ -47,6 +47,8 @@
     <preference for="TIG\Buckaroo\Api\PaymentInformationManagementInterface" type="TIG\Buckaroo\Model\PaymentInformationManagement"/>
     <preference for="TIG\Buckaroo\Api\GuestPaymentInformationManagementInterface" type="TIG\Buckaroo\Model\GuestPaymentInformationManagement"/>
     <preference for="Magento\Quote\Model\Cart\CartTotalRepository" type="TIG\Buckaroo\Model\Cart\CartTotalRepository" />
+    <preference for="Magento\CheckoutAgreements\Model\Checkout\Plugin\Validation" type="TIG\Buckaroo\Model\Checkout\Plugin\Validation" />
+    <preference for="Magento\CheckoutAgreements\Model\Checkout\Plugin\GuestValidation" type="TIG\Buckaroo\Model\Checkout\Plugin\GuestValidation" />
 
     <type name="TIG\Buckaroo\Model\Method\AbstractMethod">
         <arguments>
